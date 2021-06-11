@@ -3,7 +3,7 @@ LABEL maintainer cmtedouglas@hotmail.com
 
 USER root
 RUN set -ex && apt update && \
-        && apt install build-essential \
+               apt install build-essential \
                        apt-transport-https \
                        ca-certificates \
                        curl \
