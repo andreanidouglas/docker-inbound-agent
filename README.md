@@ -8,7 +8,7 @@ execute:
 ```bash
 docker run -d -v /var/run/docker.sock:/var/run/docker.sock \
     --init andreanidouglas/docker-inbound-agent \
-    -url http://192.168.180.9:8080 \
+    -url <jenkins_controller_url> \
     <secret> <agent_name>
 ```
 
