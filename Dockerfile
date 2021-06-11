@@ -1,4 +1,4 @@
-FROM jenkins/inbound-agent:debian
+FROM jenkins/inbound-agent
 LABEL maintainer cmtedouglas@hotmail.com
 
 USER root
