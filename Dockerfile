@@ -16,6 +16,5 @@ RUN set -ex && curl -fsSL https://download.docker.com/linux/$(. /etc/os-release;
                stable" && \
                apt-get update && \
                apt-get -y install docker-ce
-
-USER jenkins
+USER root
 ENTRYPOINT ["/usr/local/bin/jenkins-agent"]
